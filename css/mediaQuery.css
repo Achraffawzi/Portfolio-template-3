@@ -1,0 +1,48 @@
+@media only screen and (max-width: 1300px) {
+	.localisation .contact {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.showcase .showcase-top .navbar button i {
+		color: #fff;
+		outline: none;
+	}
+
+	.about .about-description {
+		width: 100%;
+	}
+
+	.portfolio .container {
+		grid-template-columns: 1fr;
+	}
+
+	.portfolio .container .portfolio-1 {
+		margin-bottom: 2rem;
+	}
+
+	.contact-form form {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.contact-form form .for-grp {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media only screen and (max-width: 452px) {
+	.about .about-description h3 {
+		font-size: 3rem;
+	}
+
+	.about .about-description p:first-of-type {
+		font-size: 1rem;
+	}
+
+	.about .about-description p {
+		font-size: 0.8rem;
+		line-height: 2
+	}
+}
